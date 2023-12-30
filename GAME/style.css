@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+*{
+    margin: o;
+    padding: 0;
+    font-family:Poppins;
+    text-align: center;
+    
+}
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    
+}
+.choice {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+}
+img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.choices {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #CAB7A2;
+    gap: 3rem;
+    
+   
+}
+.score-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#CAB7A2 ;
+    gap: 7rem;
+    
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    gap: 2rem;
+    margin-left: 2.8rem;
+}
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
